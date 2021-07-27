@@ -2,3 +2,4 @@ streamlit
 pytesseract
 numpy
 cv2
+PIL
