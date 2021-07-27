@@ -3,7 +3,7 @@ import cv2
 import pytesseract
 from PIL import Image
 import numpy as np
-
+pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
 st.title("Number Plate Detection And Recognition")
 pic = st.sidebar.file_uploader("Choose an image")
 if pic is not None:
